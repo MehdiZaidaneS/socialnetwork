@@ -1,0 +1,12 @@
+.logIn{
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid white;
+    width: 22%;
+    padding-bottom: 22px;
+}
+
+.logIn h5{
+    margin-bottom: 0px;
+}

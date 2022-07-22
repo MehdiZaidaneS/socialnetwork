@@ -1,0 +1,14 @@
+.frontPage h1{
+    color: white;
+    font-size: 120px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+
+.frontPage{
+    display: flex;
+    flex-direction: inline;
+    align-items: center;
+    justify-content: center;
+}
+
+
