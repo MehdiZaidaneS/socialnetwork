@@ -1,14 +1,39 @@
+
 .frontPage h1{
     color: white;
     font-size: 120px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
 }
 
-.frontPage{
+.frontPage img{
+    position: absolute;
+}
+
+#photo{
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 80px;
+    transform: rotate(-2deg);
+}
+
+ .frontPage{
     display: flex;
     flex-direction: inline;
     align-items: center;
     justify-content: center;
 }
+
+.getIn{
+    display: flex;
+    flex-direction: inline;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.getIn img:hover{
+    cursor: pointer;
+}
+
 
 

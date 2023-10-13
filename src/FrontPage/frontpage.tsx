@@ -1,6 +1,8 @@
 import React from 'react'
-import logo from "./faviconn.ico.png";
-import Login from '../LogIn/login';
+import Login from '../LogIn/login'
+import AppStore from "./AppStore.png"
+import GooglePlay from "./GooglePlay.png"
+import Phone from "./Phone.png"
 import styles from "./frontpage.module.css"
 
 type FrontpageProps = {
@@ -8,17 +10,23 @@ type FrontpageProps = {
 }
 
 const Frontpage: React.FC<FrontpageProps> = () => {
+
   return (
-    <div>
+    <div className={styles.frontPageBlock}>
+      <img id={styles.photo} src={Phone} alt="" width={400}></img> 
       <div className={styles.frontPage}>
-        <div>
-          <img src={logo} width={160} alt=""/>
-        </div>
-        <div>
-          <h1>ChatSN</h1>
+        <div className={styles.axis}>
+          <h1>Zhoot</h1>
         </div>
       </div>
+
       <Login></Login>
+
+      <div className={styles.getIn}>
+        <img src={AppStore} alt="" width={125}></img>
+        <img src={GooglePlay} alt="" width={155}></img>
+      </div>
+
     </div>
   )
 }

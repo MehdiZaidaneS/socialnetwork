@@ -1,12 +1,99 @@
-.logIn{
-    color: white;
-    margin: 0 auto;
-    text-align: center;
-    border: 1px solid white;
-    width: 22%;
-    padding-bottom: 22px;
+/* .form{
+    background-color: white;
+    border-radius: 5px;
+    width: 550px;
+    margin: 20px auto;
+    padding: 20px;
+    
+    height: 600px;
 }
 
-.logIn h5{
-    margin-bottom: 0px;
+.formBody{
+    text-align: left;
+    padding: 20px 10px;
+}
+
+.formBody > *{
+    padding: 5px;
+}
+
+.form__label{
+    width: 40%;
+}
+
+.form_input{
+    width: 60%;
+}
+
+.footer{
+    text-align: center;
+} */
+
+
+
+
+.buttons{
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+    
+}
+
+.buttons button{
+    background-color:rgba(97, 6, 100, 0.705);
+    font-size: 20px;
+    border: none;
+    padding: 8px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+   
+
+.buttons button:focus{
+    background-color:rgba(142, 9, 146, 0.705);
+}
+
+
+
+.form{
+    text-align: center;
+    padding: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin: 0 auto;
+    color: black;
+    background-color: white;
+    border: 1px solid rgba(41, 1, 43, 0.767);
+    width: fit-content;
+}
+
+.footer button{
+    color: white;
+    background-color: rgb(83, 1, 83);
+    border: none;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+    border-radius: 6%;
+}
+
+.footer p{
+    color: rgb(3, 3, 145);
+    font-size: 15px;
+    font-style:oblique;
+}
+
+.form input{
+    font-size: 15px;
+    margin:1px;
+}
+
+.eslogan p{
+    margin: 0 auto;
+    font-size: 16px;
+    margin-bottom: 9px;
 }
